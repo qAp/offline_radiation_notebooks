@@ -3,10 +3,9 @@
 *-checkpoint.ipynb
 *.pdf
 *.png
-*.csv
 *.h5
 *.nc
 *.exe
-*.xlsx
+
 
 .ipynb_checkpoints/
