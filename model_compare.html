@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Offline Radiation Model Comparison</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      position: relative; 
+  }
+  .affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+  .navbar {
+      margin-bottom: 0px;
+  }
+
+  .affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+  }
+  #section1 {padding-top:50px;color: #fff; background-color: #1E88E5;}
+  #section2 {padding-top:50px;color: #fff; background-color: #673ab7;}
+  #section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+  #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+  </style>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<div class="container-fluid" style="background-color:#F44336;color:#fff;height:200px;">
+  <h1>Offline Radiation Model Comparison</h1>
+  <p>The links here redirect to notebooks that show the comparison of various offline radiation models for different gas contents in a typical mid-latutude summar atmosphere. The radiation models considered include line-by-line models and parameterized models.</p>
+</div>
+
+<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Offline Radiation Notebooks</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">Shortwave</a></li>
+          <li><a href="#section2">Longwave</a></li>
+          <li><a href="#section3">Section 3</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section41">Section 4-1</a></li>
+              <li><a href="#section42">Section 4-2</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+<div id="section1" class="container-fluid">
+  <h1>Shortwave</h1>
+
+  
+
+
+
+<div class="panel panel-default">
+  <div class="panel-body">
+    
+
+<a href="http://nbviewer.jupyter.org/github/qAp/offline_radiation_notebooks/blob/master/shortwave/shortwave_mls_H2O.ipynb">H2O</a>
+</br>
+
+
+<a href="http://nbviewer.jupyter.org/github/qAp/offline_radiation_notebooks/blob/master/shortwave/shortwave_mls_CO2.ipynb">CO2</a>
+</br>
+
+
+<a href="http://nbviewer.jupyter.org/github/qAp/offline_radiation_notebooks/blob/master/shortwave/shortwave_mls_O3.ipynb">O3</a>
+  </div>
+  <div class="panel-footer">
+    
+  </div>
+</div>
+
+</div>
+<div id="section2" class="container-fluid">
+  <h1>Longwave</h1>
+  
+
+
+
+<div class="panel panel-default">
+  <div class="panel-body">
+    
+
+<a href="http://nbviewer.jupyter.org/github/qAp/offline_radiation_notebooks/blob/master/longwave/longwave_mls_H2O.ipynb">H2O</a>
+</br>
+
+
+<a href="http://nbviewer.jupyter.org/github/qAp/offline_radiation_notebooks/blob/master/longwave/longwave_mls_CO2.ipynb">CO2</a>
+</br>
+
+
+<a href="http://nbviewer.jupyter.org/github/qAp/offline_radiation_notebooks/blob/master/longwave/longwave_mls_O3.ipynb">O3</a>
+</br>
+
+
+<a href="http://nbviewer.jupyter.org/github/qAp/offline_radiation_notebooks/blob/master/longwave/longwave_mls_N2O.ipynb">N2O</a>
+</br>
+
+
+<a href="http://nbviewer.jupyter.org/github/qAp/offline_radiation_notebooks/blob/master/longwave/longwave_mls_H2O_CO2.ipynb">H2O+CO2</a>
+</br>
+
+
+<a href="http://nbviewer.jupyter.org/github/qAp/offline_radiation_notebooks/blob/master/longwave/longwave_mls_H2O_O3.ipynb">H2O+O3</a>
+</br>
+
+
+<a href="http://nbviewer.jupyter.org/github/qAp/offline_radiation_notebooks/blob/master/longwave/longwave_mls_H2O_CO2_O3.ipynb">H2O+CO2+O3</a>
+  </div>
+  <div class="panel-footer">
+    
+  </div>
+</div>
+</div>
+
+</body>
+</html>
