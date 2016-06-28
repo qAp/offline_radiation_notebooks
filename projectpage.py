@@ -3,6 +3,8 @@ import os
 import jinja2
 
 import data_model_compare
+import rrtmg_continuum_study
+
 
 
 dir_template = os.path.join(os.path.dirname(__file__), 'templates')
@@ -93,8 +95,17 @@ def page_model_compare():
         file.write(html)
 
 
-
+def writeHTMLfile_rrtmg_continuum():
+    tmpl_affix = jinja_env.get_template('template_affix.html')
+    tmpl_panel = jinja_env.get_template('panel_body_footer.html')
+    tmpl_link = jinja_env.get_template('button_href.html')
+    rrtmg_continuum_study.writeHTMLfile(tmpl_affix=tmpl_affix,
+                                        tmpl_panel=tmpl_panel,
+                                        tmpl_link=tmpl_link)
+    
 
 if __name__ == '__main__':
     page_index()
     page_model_compare()
+    writeHTMLfile_rrtmg_continuum()
+    
