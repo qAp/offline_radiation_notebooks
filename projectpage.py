@@ -83,7 +83,7 @@ def page_model_compare():
     html_sec_2 = html_model_compare(spectral_region='lw')
 
     html = tmpl_affix.render(website_name=('Offline Radiation '
-                                           'Notebooks'),
+                                           'Results'),
                              page_title=page_title,
                              page_info=page_info,
                              content_1=html_sec_1,
