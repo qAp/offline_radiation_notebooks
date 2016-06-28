@@ -68,7 +68,7 @@ def page_model_compare():
     '''
     tmpl_affix = jinja_env.get_template('template_affix.html')
 
-    page_title = 'Offline Radiation Model Comparison'
+    page_title = 'Model Comparison'
 
     page_info = ('''The links here redirect to notebooks '''
                  '''that show the comparison of various '''
