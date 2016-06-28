@@ -37,7 +37,7 @@ def getHTML_panel_sw(tmpl_panel=None, tmpl_link=None):
     nbs = getList_notebooks_sw()
     links = [tmpl_link.render(href=nb['href'], label=nb['label'])
              for nb in nbs]
-    panel['footer'] = ' '.join(links)
+    panel['footer'] = '\n </br> \n'.join(links)
 
     html = tmpl_panel.render(panel=panel)
     return html
@@ -55,7 +55,7 @@ def getHTML_panel_lw(tmpl_panel=None, tmpl_link=None):
     nbs = getList_notebooks_lw()
     links = [tmpl_link.render(href=nb['href'], label=nb['label'])
              for nb in nbs]
-    panel['footer'] = ' '.join(links)
+    panel['footer'] = '\n </br> \n'.join(links)
 
     html = tmpl_panel.render(panel=panel)
     return html

@@ -47,7 +47,7 @@ def getHTML_panel_continuum(tmpl_link=None, tmpl_panel=None,
              for nb in nbs]
 
     panel = {}
-    panel['body'] = '\n</br>/n'.join(lines)
+    panel['footer'] = '\n</br>/n'.join(lines)
 
     html = tmpl_panel.render(panel=panel)
     return html

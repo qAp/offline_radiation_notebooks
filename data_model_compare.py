@@ -22,7 +22,10 @@ CASES_LW = [
     dict(molecules=['H2O', 'O3'],
          file_ipynb='longwave_mls_H2O_O3.ipynb'),
     dict(molecules=['H2O', 'CO2', 'O3'],
-         file_ipynb='longwave_mls_H2O_CO2_O3.ipynb')
+         file_ipynb='longwave_mls_H2O_CO2_O3.ipynb'),
+    dict(molecules=['H2O', 'CO2', 'O3'],
+         file_ipynb='longwave_mls_H2O_CO2_O3_cont.ipynb',
+         info='cont')
     ]
 
 

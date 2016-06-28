@@ -41,7 +41,12 @@ def html_model_compare(spectral_region='lw'):
 
     lines = []
     for d in cases:
+        print(d)
         label_link = '+'.join(d['molecules'])
+        if 'info' in d:
+            label_link += '_{}'.format(d['info'])
+        print(label_link)
+            
         href_link = os.path.join(data_model_compare.URL_BASE,
                                  whichwave,
                                  d['file_ipynb'])
@@ -49,7 +54,7 @@ def html_model_compare(spectral_region='lw'):
                                  href=href_link))
 
     content_panelbody = '\n</br>\n'.join(lines)
-    panel = dict(body=content_panelbody)
+    panel = dict(footer=content_panelbody)
     html_panel = tmpl_panel.render(panel=panel)
     return html_panel
 
