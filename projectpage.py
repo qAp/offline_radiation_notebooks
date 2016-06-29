@@ -13,7 +13,7 @@ jinja_env = jinja2.Environment(loader=package_loader)
 
 
 
-def page_index():
+def writeHTMLfile_index():
     template_index = jinja_env.get_template('index.html')
 
     with open('index.html', mode='w', encoding='utf-8') as file:
@@ -60,7 +60,7 @@ def writeHTMLfile_clirad_gpts():
 
 
 if __name__ == '__main__':
-    page_index()
+    writeHTMLfile_index()
     writeHTMLfile_model_compare()
     writeHTMLfile_rrtmg_continuum()
     writeHTMLfile_clirad_gpts()
