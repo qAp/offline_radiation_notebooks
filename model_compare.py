@@ -26,11 +26,9 @@ def getHTML_panel(spectral_region='lw',
 
     lines = []
     for d in cases:
-        print(d)
         label_link = '+'.join(d['molecules'])
         if 'info' in d:
             label_link += '_{}'.format(d['info'])
-        print(label_link)
             
         href_link = os.path.join(data_model_compare.URL_BASE,
                                  whichwave,
