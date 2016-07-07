@@ -27,6 +27,7 @@ def getList_metadata_lw():
         href = os.path.join(data.URL_BASE,
                             'longwave',
                             'study__continuum',
+                            'rrtmg',
                             d['file_ipynb'])
         list_metadata.append(dict(label=label, href=href))
     return list_metadata
