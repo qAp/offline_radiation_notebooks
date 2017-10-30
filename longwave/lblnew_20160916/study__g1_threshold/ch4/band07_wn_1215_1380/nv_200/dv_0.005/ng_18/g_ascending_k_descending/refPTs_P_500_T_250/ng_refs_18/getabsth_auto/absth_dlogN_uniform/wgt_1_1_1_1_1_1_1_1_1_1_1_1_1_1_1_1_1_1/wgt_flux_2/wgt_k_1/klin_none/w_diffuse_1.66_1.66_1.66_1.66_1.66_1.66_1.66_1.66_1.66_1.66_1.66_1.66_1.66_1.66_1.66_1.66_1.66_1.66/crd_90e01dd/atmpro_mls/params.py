@@ -1,0 +1,4 @@
+DIR_CRD = '/chia_cluster/home/jackyu/radiation/crd/LW/examples/separate_g_groups/study__lblnew_g1_threshold/ch4/band07_wn_1215_1380/nv_200/dv_0.005/ng_18/g_ascending_k_descending/refPTs_P_500_T_250/ng_refs_18/getabsth_auto/absth_dlogN_uniform/wgt_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1/wgt_flux_2/wgt_k_1/klin_none/w_diffuse_1.66_1.66_1.66_1.66_1.66_1.66_1.66_1.66_1.66_1.66_1.66_1.66_1.66_1.66_1.66_1.66_1.66_1.66/crd_90e01dd/atmpro_mls'
+DIR_XCRD = '/chia_cluster/home/jackyu/radiation/crd/LW/examples/separate_g_groups/study__lblnew_g1_threshold/ch4/band07_wn_1215_1380/nv_200/dv_0.005/ng_18/g_ascending_k_descending/refPTs_P_500_T_250/ng_refs_18/getabsth_auto/absth_dlogN_uniform/wgt_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1_1/wgt_flux_2/wgt_k_1/klin_none/w_diffuse_1.66_1.66_1.66_1.66_1.66_1.66_1.66_1.66_1.66_1.66_1.66_1.66_1.66_1.66_1.66_1.66_1.66_1.66/crd_90e01dd/atmpro_mls'
+NG_REFS = [18]
+P_REFS = [500]
