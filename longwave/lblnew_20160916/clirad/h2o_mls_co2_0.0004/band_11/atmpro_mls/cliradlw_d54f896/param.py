@@ -1,3 +1,2 @@
-DIR_FORTRAN = '/chia_cluster/home/jackyu/radiation/clirad-lw/LW/examples/lblnew/h2o_mls_co2_0.0004/band_11/atmpro_mls/cliradlw_d54f896'
 PARAM = {'atmpro': 'mls', 'band': [11], 'commitnumber': 'd54f896', 'molecule': {'h2o': 'atmpro', 'co2': 0.0004}, 'tsfc': 294}
-DIR_FORTRAN_LBLNEW = '/chia_cluster/home/jackyu/radiation/crd/LW/examples/separate_g_groups/study__lblnew_g1_threshold/h2o_1_co2_1_o3_0_n2o_0_ch4_0_o2_0/band09_wn_1900_3000/nv_1000/dv_0.001/crd_8ba2806/atmpro_mls'
+PARAM_LBLNEW = {'atmpro': 'mls', 'band': '9', 'commitnumber': '8ba2806', 'dv': 0.001, 'molecule': {'co2': 0.0004, 'h2o': 'atmpro'}, 'nv': 1000, 'tsfc': 294}
