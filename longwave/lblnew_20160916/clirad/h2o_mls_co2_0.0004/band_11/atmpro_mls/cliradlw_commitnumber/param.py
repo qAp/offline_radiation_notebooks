@@ -1,0 +1,2 @@
+PARAM = {'atmpro': 'mls', 'band': [11], 'commitnumber': 'commitnumber', 'molecule': {'h2o': 'atmpro', 'co2': 0.0004}, 'tsfc': 294}
+PARAM_LBLNEW = {'atmpro': 'mls', 'band': '9', 'commitnumber': '8ba2806', 'dv': 0.001, 'molecule': {'co2': 0.0004, 'h2o': 'atmpro'}, 'nv': 1000, 'tsfc': 294}
