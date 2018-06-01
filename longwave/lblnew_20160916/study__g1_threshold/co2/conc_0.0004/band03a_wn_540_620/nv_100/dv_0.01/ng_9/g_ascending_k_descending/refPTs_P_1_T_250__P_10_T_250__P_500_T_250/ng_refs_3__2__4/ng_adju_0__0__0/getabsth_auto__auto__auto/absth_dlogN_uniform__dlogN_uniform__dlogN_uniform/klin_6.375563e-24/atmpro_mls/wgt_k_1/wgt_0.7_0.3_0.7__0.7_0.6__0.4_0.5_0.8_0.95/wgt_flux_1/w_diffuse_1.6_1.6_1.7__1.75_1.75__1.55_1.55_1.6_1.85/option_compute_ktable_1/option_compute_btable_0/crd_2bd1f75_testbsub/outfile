@@ -1,0 +1,44 @@
+Sender: LSF System <phpcadmin@chiacn030>
+Subject: Job 332286: <lblnew> in cluster <phpc_cluster> Done
+
+Job <lblnew> was submitted from host <chialn00> by user <jackyu> in cluster <phpc_cluster>.
+Job was executed on host(s) <4*chiacn030>, in queue <medium_priority>, as user <jackyu> in cluster <phpc_cluster>.
+</chia_cluster/home/jackyu> was used as the home directory.
+</chia_cluster/home/jackyu/radiation/offline_radiation_notebooks/longwave/lblnew_20160916/study__g1_threshold/co2/conc_0.0004/band03a_wn_540_620/nv_100/dv_0.01/ng_9/g_ascending_k_descending/refPTs_P_1_T_250__P_10_T_250__P_500_T_250/ng_refs_3__2__4/ng_adju_0__0__0/getabsth_auto__auto__auto/absth_dlogN_uniform__dlogN_uniform__dlogN_uniform/klin_6.375563e-24/atmpro_mls/wgt_k_1/wgt_0.7_0.3_0.7__0.7_0.6__0.4_0.5_0.8_0.95/wgt_flux_1/w_diffuse_1.6_1.6_1.7__1.75_1.75__1.55_1.55_1.6_1.85/option_compute_ktable_1/option_compute_btable_0/crd_2bd1f75_testbsub> was used as the working directory.
+Started at Fri Jun  1 11:21:50 2018
+Results reported on Fri Jun  1 11:22:43 2018
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash 
+#BSUB -J lblnew
+#BSUB -n 4
+#BSUB -o outfile
+#BSUB -e errfile
+
+jupyter nbconvert --execute --ExecutePreprocessor.timeout=None --to notebook --inplace results.ipynb
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   21.21 sec.
+    Max Memory :                                 128 MB
+    Average Memory :                             128.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   1566 MB
+    Max Processes :                              5
+    Max Threads :                                17
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file <errfile> for stderr output of this job.
+

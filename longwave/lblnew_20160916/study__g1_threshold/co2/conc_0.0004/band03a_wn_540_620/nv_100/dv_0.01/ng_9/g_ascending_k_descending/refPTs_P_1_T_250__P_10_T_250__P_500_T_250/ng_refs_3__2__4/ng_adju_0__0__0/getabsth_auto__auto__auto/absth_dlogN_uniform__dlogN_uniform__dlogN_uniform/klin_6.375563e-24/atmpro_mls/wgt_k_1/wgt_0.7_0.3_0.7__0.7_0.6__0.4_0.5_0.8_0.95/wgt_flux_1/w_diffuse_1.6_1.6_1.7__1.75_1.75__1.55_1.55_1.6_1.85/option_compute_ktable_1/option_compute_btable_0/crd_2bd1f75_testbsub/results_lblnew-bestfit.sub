@@ -1,0 +1,7 @@
+#!/bin/bash 
+#BSUB -J lblnew
+#BSUB -n 4
+#BSUB -o outfile
+#BSUB -e errfile
+
+jupyter nbconvert --execute --ExecutePreprocessor.timeout=None --to notebook --inplace results.ipynb
