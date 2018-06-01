@@ -4,3 +4,9 @@
 [NbConvertApp] Converting notebook results.ipynb to notebook
 [NbConvertApp] Executing notebook with kernel: python3
 [NbConvertApp] Writing 1045371 bytes to results.ipynb
+/bin/sh: BASH_FUNC_module(): line 0: syntax error near unexpected token `)'
+/bin/sh: BASH_FUNC_module(): line 0: `BASH_FUNC_module() () {  eval `/chia_cluster/opt/aracbox/Modules/$MODULE_VERSION/bin/modulecmd bash $*`'
+/bin/sh: error importing function definition for `BASH_FUNC_module'
+[NbConvertApp] Converting notebook results.ipynb to notebook
+[NbConvertApp] Executing notebook with kernel: python3
+[NbConvertApp] Writing 1045371 bytes to results.ipynb
