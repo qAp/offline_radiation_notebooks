@@ -1,4 +1,0 @@
-DIR_CRD = '/chia_cluster/home/jackyu/radiation/crd/LW/examples/separate_g_groups/study__lblnew_g1_threshold/o3/band05_wn_980_1100/ng_7/g_ascending_k_descending/refPTs_P_1_T_250__P_50_T_250/ng_refs_4__3/getabsth_auto__auto/absth_dlogN_uniform__dlogN_uniform/wgt_0.4_0.5_0.6_0.7__0.85_0.9_1/wgt_flux_2/wgt_k_1/klin_none/w_diffuse_1.6_1.6_1.6_1.6__1.6_1.6_1.6/crd_0cb85be/atmpro_saw'
-DIR_XCRD = '/chia_cluster/home/jackyu/radiation/crd/LW/examples/separate_g_groups/study__lblnew_g1_threshold/o3/band05_wn_980_1100/ng_7/g_ascending_k_descending/refPTs_P_1_T_250__P_50_T_250/ng_refs_4__3/getabsth_auto__auto/absth_dlogN_uniform__dlogN_uniform/wgt_0.4_0.5_0.6_0.7__0.85_0.9_1/wgt_flux_2/wgt_k_1/klin_none/w_diffuse_1.6_1.6_1.6_1.6__1.6_1.6_1.6/crd_0cb85be/atmpro_saw'
-NG_REFS = [4, 3]
-P_REFS = [1, 50]
